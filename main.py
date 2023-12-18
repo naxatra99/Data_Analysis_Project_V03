@@ -124,7 +124,7 @@ def quantization(filename):
 
 
 
-app.run(debug=True)
+app.run(host='127.0.0.9',port=4455,debug=True)
 
 
 
