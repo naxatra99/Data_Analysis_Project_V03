@@ -123,8 +123,8 @@ def quantization(filename):
     df.to_csv('static/test_continuous_data.csv', index=False)
 
 
-
-app.run(host='127.0.0.9',port=4455,debug=True)
+if __name__=="__main__":
+    app.run(host='127.0.0.9',port=4455,debug=True) 
 
 
 
